@@ -49,7 +49,7 @@ Every topic includes:
 | Status | Topic        |
 | ------ | ------------ |
 | ✅      | Variables    |
-| ⬜      | Data Types   |
+| ✅      | Data Types   |
 | ⬜      | Input Output |
 | ⬜      | Operators    |
 | ⬜      | Conditions   |

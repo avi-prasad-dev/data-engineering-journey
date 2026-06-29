@@ -1,44 +1,39 @@
-# Python Backend Journey 🚀
+# Data Engineering Journey 🚀
 
-<div align="center">
+### From Beginner to Job-Ready Data Engineer
 
-### From Beginner to Job-Ready Python Backend Developer
+A structured learning journey focused on Python, SQL, ETL Pipelines, Databases, Cloud Fundamentals, and Data Engineering tools.
 
-A structured learning journey focused on Python, FastAPI, Backend Development, Databases, System Design, and Production Engineering.
-
-**Target:** Become a Job-Ready Python Backend Developer by August 2026
-
-</div>
+**Target:** Become a Job-Ready Data Engineer by August 2026
 
 ---
 
 ## About This Repository
 
-This repository documents my complete learning journey toward becoming a professional Python Backend Developer.
+This repository documents my complete learning journey toward becoming a professional Data Engineer.
 
-The goal is not only to learn Python syntax but also to develop industry-ready skills required for:
+The goal is not only to learn Python and SQL syntax but also to develop industry-ready skills required for:
 
-* Backend Development
-* REST API Development
-* FastAPI
-* Database Design
-* PostgreSQL
-* SQLAlchemy
-* Authentication & Authorization
-* Docker & Deployment
-* System Design
-* Technical Interviews
-* Freelancing & Remote Opportunities
+- Data Collection & Ingestion
+- SQL & Database Design
+- ETL / ELT Pipeline Development
+- Python for Data Engineering (Pandas, NumPy)
+- PostgreSQL / MySQL
+- Workflow Orchestration (Airflow)
+- Data Modeling (dbt basics)
+- Cloud Fundamentals (AWS / GCP)
+- Version Control & Documentation
+- Technical Interviews
 
 Every topic includes:
 
-* Notes
-* Practice Programs
-* Coding Challenges
-* Mini Projects
-* FastAPI Projects
-* Interview Preparation
-* GitHub Documentation
+- Notes
+- Practice Programs
+- Coding Challenges
+- Mini Projects
+- ETL Projects
+- Interview Preparation
+- GitHub Documentation
 
 ---
 
@@ -46,123 +41,113 @@ Every topic includes:
 
 ### Phase 1 — Python Foundations
 
-| Status | Topic        |
-| ------ | ------------ |
-| ✅      | Variables    |
-| ✅      | Data Types   |
-| ✅      | Input Output |
-| ⬜      | Operators    |
-| ⬜      | Conditions   |
-| ⬜      | Loops        |
-| ⬜      | Functions    |
-| ⬜      | Scope        |
-| ⬜      | Strings      |
-| ⬜      | Lists        |
-| ⬜      | Tuples       |
-| ⬜      | Sets         |
-| ⬜      | Dictionaries |
+| Status | Topic |
+| --- | --- |
+| ✅ | Variables |
+| ✅ | Data Types |
+| ✅ | Input Output |
+| ⬜ | Operators |
+| ⬜ | Conditions |
+| ⬜ | Loops |
+| ⬜ | Functions |
+| ⬜ | Strings |
+| ⬜ | Lists |
+| ⬜ | Tuples |
+| ⬜ | Sets |
+| ⬜ | Dictionaries |
+| ⬜ | File Handling |
+| ⬜ | Exception Handling |
+| ⬜ | OOP Basics |
 
 ---
 
-### Phase 2 — Intermediate Python
+### Phase 2 — SQL & Databases
 
-| Status | Topic                       |
-| ------ | --------------------------- |
-| ⬜      | List Comprehensions         |
-| ⬜      | Lambda Functions            |
-| ⬜      | Map Filter Reduce           |
-| ⬜      | Modules                     |
-| ⬜      | Exception Handling          |
-| ⬜      | File Handling               |
-| ⬜      | JSON                        |
-| ⬜      | Object-Oriented Programming |
-| ⬜      | Dataclasses                 |
-| ⬜      | Iterators                   |
-| ⬜      | Generators                  |
-| ⬜      | Decorators                  |
+| Status | Topic |
+| --- | --- |
+| ⬜ | SQL Fundamentals (SELECT, WHERE, ORDER BY) |
+| ⬜ | Joins (INNER, LEFT, RIGHT, FULL) |
+| ⬜ | Aggregations & GROUP BY |
+| ⬜ | Subqueries |
+| ⬜ | Window Functions |
+| ⬜ | Indexes & Query Optimization |
+| ⬜ | PostgreSQL Setup & Usage |
+| ⬜ | Database Design & Normalization |
+| ⬜ | CRUD Operations |
 
 ---
 
-### Phase 3 — Advanced Python
+### Phase 3 — Python for Data Engineering
 
-| Status | Topic                |
-| ------ | -------------------- |
-| ⬜      | Type Hints           |
-| ⬜      | Context Managers     |
-| ⬜      | Logging              |
-| ⬜      | Virtual Environments |
-| ⬜      | Packaging            |
-| ⬜      | Async Programming    |
-| ⬜      | Concurrency          |
-| ⬜      | Testing              |
-| ⬜      | Pytest               |
-| ⬜      | SOLID Principles     |
+| Status | Topic |
+| --- | --- |
+| ⬜ | NumPy Basics |
+| ⬜ | Pandas — Data Cleaning |
+| ⬜ | Pandas — Data Transformation |
+| ⬜ | Working with CSV / JSON / Excel Files |
+| ⬜ | Working with APIs (Requests) |
+| ⬜ | Web Scraping Basics |
+| ⬜ | Data Validation |
+| ⬜ | Logging & Error Handling |
 
 ---
 
-### Phase 4 — Backend Development
+### Phase 4 — ETL / ELT Pipelines
 
-| Status | Topic                |
-| ------ | -------------------- |
-| ⬜      | HTTP Fundamentals    |
-| ⬜      | REST APIs            |
-| ⬜      | FastAPI Basics       |
-| ⬜      | Routing              |
-| ⬜      | Query Parameters     |
-| ⬜      | Path Parameters      |
-| ⬜      | Request Body         |
-| ⬜      | Pydantic             |
-| ⬜      | Validation           |
-| ⬜      | Dependency Injection |
-| ⬜      | Middleware           |
-| ⬜      | Authentication       |
-| ⬜      | JWT                  |
-| ⬜      | OAuth                |
-| ⬜      | File Uploads         |
+| Status | Topic |
+| --- | --- |
+| ⬜ | ETL Concepts (Extract, Transform, Load) |
+| ⬜ | Building a Simple ETL Script |
+| ⬜ | Batch vs Streaming Data |
+| ⬜ | Data Quality Checks |
+| ⬜ | Scheduling Jobs (Cron Basics) |
+| ⬜ | Apache Airflow Fundamentals |
+| ⬜ | Building an Airflow DAG |
+| ⬜ | dbt Basics (Data Modeling) |
 
 ---
 
-### Phase 5 — Databases
+### Phase 5 — Cloud & Data Warehousing
 
-| Status | Topic            |
-| ------ | ---------------- |
-| ⬜      | SQL Fundamentals |
-| ⬜      | PostgreSQL       |
-| ⬜      | SQLAlchemy       |
-| ⬜      | Relationships    |
-| ⬜      | Alembic          |
-| ⬜      | CRUD APIs        |
+| Status | Topic |
+| --- | --- |
+| ⬜ | Cloud Computing Basics |
+| ⬜ | AWS S3 (Storage Basics) |
+| ⬜ | AWS RDS / Redshift Basics |
+| ⬜ | GCP BigQuery Basics |
+| ⬜ | Data Warehouse Concepts |
+| ⬜ | Data Lake vs Data Warehouse |
 
 ---
 
-### Phase 6 — Production Engineering
+### Phase 6 — Tools & Production Engineering
 
-| Status | Topic                |
-| ------ | -------------------- |
-| ⬜      | Docker               |
-| ⬜      | CI/CD                |
-| ⬜      | Nginx                |
-| ⬜      | Deployment           |
-| ⬜      | Monitoring           |
-| ⬜      | System Design Basics |
+| Status | Topic |
+| --- | --- |
+| ⬜ | Git & GitHub Workflow |
+| ⬜ | Docker Basics |
+| ⬜ | Linux Command Line |
+| ⬜ | Version Control for Data Projects |
+| ⬜ | Documentation Best Practices |
+| ⬜ | System Design Basics for Data Pipelines |
 
 ---
 
 ## Repository Structure
 
-```text
-python-backend-journey/
+```
+data-engineering-journey/
 │
-├── 01-variables/
-├── 02-data-types/
-├── 03-input-output/
-├── 04-operators/
-├── 05-conditions/
-├── ...
+├── 01-python-foundations/
+├── 02-sql-databases/
+├── 03-python-for-data/
+├── 04-etl-pipelines/
+├── 05-cloud-warehousing/
+├── 06-tools-production/
 │
 ├── projects/
-│   ├── python-projects/
-│   └── fastapi-projects/
+│   ├── mini-projects/
+│   └── etl-projects/
 │
 ├── interview-preparation/
 │
@@ -176,43 +161,25 @@ python-backend-journey/
 ## Technology Stack
 
 ### Programming Language
-
-* Python 3.x
-
-### Backend Framework
-
-* FastAPI
+- Python 3.x
 
 ### Database
+- PostgreSQL / MySQL
 
-* PostgreSQL
+### Data Processing
+- Pandas, NumPy
 
-### ORM
+### Orchestration
+- Apache Airflow
 
-* SQLAlchemy
+### Data Modeling
+- dbt (basics)
 
-### Database Migration
-
-* Alembic
-
-### API Validation
-
-* Pydantic
-
-### Testing
-
-* Pytest
-
-### Deployment
-
-* Docker
-* Nginx
-* Linux
+### Cloud
+- AWS (S3, RDS, Redshift) / GCP (BigQuery)
 
 ### Version Control
-
-* Git
-* GitHub
+- Git, GitHub
 
 ---
 
@@ -224,7 +191,7 @@ This repository follows a project-based approach:
 2. Build practice programs.
 3. Solve coding challenges.
 4. Create mini projects.
-5. Build FastAPI integrations.
+5. Build ETL pipeline integrations.
 6. Document everything.
 7. Push to GitHub.
 8. Prepare interview questions.
@@ -233,30 +200,30 @@ This repository follows a project-based approach:
 
 ## Career Goal
 
-My objective is to become a professional Python Backend Developer capable of:
+My objective is to become a professional Data Engineer capable of:
 
-* Building scalable APIs
-* Designing backend systems
-* Working with databases
-* Deploying production applications
-* Contributing to professional software projects
-* Securing remote and freelance opportunities
+- Writing efficient SQL queries
+- Building and automating ETL/ELT pipelines
+- Working with relational databases and data warehouses
+- Cleaning and transforming data using Python
+- Understanding cloud-based data infrastructure
+- Contributing to real-world data projects
+- Securing entry-level Data Engineering opportunities
 
 ---
 
 ## Progress Tracker
 
-* Topics Completed: 1 / 62
-* Current Topic: Variables
-* Next Topic: Data Types
+- Topics Completed: 3 / 62
+- Current Topic: Input Output
+- Next Topic: Operators
 
 ---
 
 ## Connect
 
 ### GitHub
-
-Update this section with your GitHub profile once available.
+[avi-prasad-dev](https://github.com/avi-prasad-dev)
 
 ---
 

@@ -1,43 +1,33 @@
-# Day 1 — Variables, Data Types, Type Conversion
-# Data Engineering Journey — Avinash
+# ===== ASSIGNMENT — PRODUCT WAREHOUSE =====
 
-# ===== VARIABLES AND DATA TYPES =====
-order_id = 12271824          # int
-customer_name = "Avinash"    # str
-order_amount = 455.00        # float
-is_delivered = False         # bool
+product_id = 12271824
+product_name = "pen"
+price = 145.25
+in_stock = True
+warehouse_code = 122824
 
-# ===== F-STRING PRINTING =====
-print(f"Order ID: {order_id}")
-print(f"Customer: {customer_name}")
-print(f"Amount: ₹{order_amount}")
-print(f"Delivered: {is_delivered}")
-print(f"Order {order_id} for {customer_name} worth ₹{order_amount} — Delivered: {is_delivered}")
+# f-string se print karo
+print(f"\n--- Product Summary ---")
+print(f"Product ID: {product_id}")
+print(f"Product Name: {product_name}")
+print(f"Product Price: {price}")
+print(f"Product Stock: {in_stock}")
+print(f"Product Warehouse Code: {warehouse_code}")
 
-# ===== TYPE CHECKING =====
-print(type(order_id))
-print(type(customer_name))
-print(type(order_amount))
-print(type(is_delivered))
+# type() verify karo
+print(type(product_id))
+print(type(product_name))
+print(type(price))
+print(type(in_stock))
+print(type(warehouse_code))
 
-# ===== TYPE CONVERSION =====
-raw_order_id = "12271824"
-raw_amount = "455.00"
-raw_delivered = "False"
 
-order_id_converted = int(raw_order_id)
-order_amount_converted = float(raw_amount)
+# Raw strings se convert karo
+raw_price = "1299.50"
+raw_in_stock = "True"
 
-# IMPORTANT: bool("False") = True (wrong way)
-# Correct way to convert string to boolean:
-is_delivered_correct = raw_delivered.lower() == "true"
+price_converted = float(raw_price)       # float mein
+in_stock_converted = raw_in_stock.lower()=="true"    # sahi boolean method se
 
-print(type(order_id_converted))
-print(type(order_amount_converted))
-print(f"Correct boolean conversion: {is_delivered_correct}")  # False ✅
-
-# ===== REAL DE USE CASE =====
-statuses = ["True", "False", "True"]
-for status in statuses:
-    delivered = status.lower() == "true"
-    print(f"Delivered: {delivered}")
+print(f"Converted Price: {price_converted} | Type: {type(price_converted)}")
+print(f"Converted In Stock: {in_stock_converted} | Type: {type(in_stock_converted)}")

@@ -4,7 +4,7 @@ product_id = 12271824
 product_name = "pen"
 price = 145.25
 in_stock = True
-warehouse_code = 122824
+warehouse_code = "WH-122824"
 
 # f-string se print karo
 print(f"\n--- Product Summary ---")

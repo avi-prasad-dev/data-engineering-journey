@@ -4,7 +4,7 @@
 
 A structured learning journey focused on Python, SQL, ETL Pipelines, Databases, Cloud Fundamentals, and Data Engineering tools.
 
-**Target:** Become a Job-Ready Data Engineer by August 2026
+**Target:** Become a Job-Ready Data Engineer by October 2026
 
 ---
 

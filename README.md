@@ -92,7 +92,7 @@ data-engineering-journey/
 |-----|-------|--------|
 | Day 1 | Variables, Data Types, Type Conversion | ✅ |
 | Day 2 | Operators (Arithmetic, Comparison, Logical) | ✅ |
-| Day 3 | Conditionals (if/elif/else) | ⬜ |
+| Day 3 | Conditionals (if/elif/else) | ✅ |
 | Day 4 | Loops (for, while, break, continue) | ⬜ |
 | Day 5 | Functions & Scope | ⬜ |
 | Day 6 | Lambda Functions | ⬜ |
